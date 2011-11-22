@@ -13,8 +13,8 @@
 @interface SDURLCache : NSURLCache
 {
     @private
-    dispatch_queue_t _diskCacheQueue;
-    dispatch_queue_t _dateFormatterQueue;
+//    dispatch_queue_t _diskCacheQueue;
+//    dispatch_queue_t _dateFormatterQueue;
     NSString *_diskCachePath;
     NSMutableDictionary *_diskCacheInfo;
     BOOL _diskCacheInfoDirty;
